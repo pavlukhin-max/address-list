@@ -3166,7 +3166,7 @@ add address=217.119.98.0/24 comment="auto_update_2023-03-10 20:11" list=Amazon2
 add address=217.119.104.0/23 comment="auto_update_2023-03-10 20:11" list=Amazon2
 add address=217.169.73.0/24 comment="auto_update_2023-03-10 20:11" list=Amazon2
 add address=218.33.0.0/18 comment="auto_update_2023-03-10 20:11" list=Amazon2
-/ip firewall address-list remove [find list=FACEBOOK]
+/ip firewall address-list remove [find list="Facebook"]
 add address=31.13.24.0/21 comment="auto_update_2023-03-10 20:11" list=Facebook
 add address=31.13.64.0/18 comment="auto_update_2023-03-10 20:11" list=Facebook
 add address=45.64.40.0/22 comment="auto_update_2023-03-10 20:11" list=Facebook
@@ -3185,7 +3185,7 @@ add address=179.60.192.0/22 comment="auto_update_2023-03-10 20:11" list=Facebook
 add address=185.60.216.0/22 comment="auto_update_2023-03-10 20:11" list=Facebook
 add address=185.89.218.0/23 comment="auto_update_2023-03-10 20:11" list=Facebook
 add address=204.15.20.0/22 comment="auto_update_2023-03-10 20:11" list=Facebook
-/ip firewall address-list remove [find list=Twitter1]
+/ip firewall address-list remove [find list="Twitter1"]
 add address=64.63.0.0/18 comment="auto_update_2023-03-10 20:11" list=Twitter1
 add address=69.195.160.0/24 comment="auto_update_2023-03-10 20:11" list=Twitter1
 add address=69.195.162.0/23 comment="auto_update_2023-03-10 20:11" list=Twitter1
@@ -3216,11 +3216,11 @@ add address=209.237.203.0/24 comment="auto_update_2023-03-10 20:11" list=Twitter
 add address=209.237.219.0/24 comment="auto_update_2023-03-10 20:11" list=Twitter1
 add address=209.237.220.0/23 comment="auto_update_2023-03-10 20:11" list=Twitter1
 add address=209.237.222.0/24 comment="auto_update_2023-03-10 20:11" list=Twitter1
-/ip firewall address-list remove [find list=Twitter2]
+/ip firewall address-list remove [find list="Twitter2"]
 add address=8.25.194.0/23 comment="auto_update_2023-03-10 20:11" list=Twitter2
 add address=8.25.196.0/23 comment="auto_update_2023-03-10 20:11" list=Twitter2
 add address=185.45.4.0/24 comment="auto_update_2023-03-10 20:11" list=Twitter2
 add address=192.133.78.0/23 comment="auto_update_2023-03-10 20:11" list=Twitter2
-/ip firewall address-list remove [find list=Twitter4]
+/ip firewall address-list remove [find list="Twitter4"]
 add address=69.12.56.0/21 comment="auto_update_2023-03-10 20:12" list=Twitter4
 add address=192.48.236.0/23 comment="auto_update_2023-03-10 20:12" list=Twitter4
