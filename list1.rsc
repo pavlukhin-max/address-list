@@ -3185,7 +3185,6 @@ add address=179.60.192.0/22 comment="auto_update_2023-03-10 17:31" list=FACEBOOK
 add address=185.60.216.0/22 comment="auto_update_2023-03-10 17:31" list=FACEBOOK
 add address=185.89.218.0/23 comment="auto_update_2023-03-10 17:31" list=FACEBOOK
 add address=204.15.20.0/22 comment="auto_update_2023-03-10 17:31" list=FACEBOOK
-/ip firewall address-list remove[find list=TWITTER]
 add address=64.63.0.0/18 comment="auto_update_2023-03-10 17:31" list=TWITTER
 add address=69.195.160.0/24 comment="auto_update_2023-03-10 17:31" list=TWITTER
 add address=69.195.162.0/23 comment="auto_update_2023-03-10 17:31" list=TWITTER
@@ -3216,11 +3215,9 @@ add address=209.237.203.0/24 comment="auto_update_2023-03-10 17:31" list=TWITTER
 add address=209.237.219.0/24 comment="auto_update_2023-03-10 17:31" list=TWITTER
 add address=209.237.220.0/23 comment="auto_update_2023-03-10 17:31" list=TWITTER
 add address=209.237.222.0/24 comment="auto_update_2023-03-10 17:31" list=TWITTER
-/ip firewall address-list remove[find list=TWITTER]
 add address=8.25.194.0/23 comment="auto_update_2023-03-10 17:31" list=TWITTER
 add address=8.25.196.0/23 comment="auto_update_2023-03-10 17:31" list=TWITTER
 add address=185.45.4.0/24 comment="auto_update_2023-03-10 17:31" list=TWITTER
 add address=192.133.78.0/23 comment="auto_update_2023-03-10 17:31" list=TWITTER
-/ip firewall address-list remove[find list=TWITTER]
 add address=69.12.56.0/21 comment="auto_update_2023-03-10 17:31" list=TWITTER
 add address=192.48.236.0/23 comment="auto_update_2023-03-10 17:31" list=TWITTER
