@@ -1,5 +1,5 @@
 /ip firewall address-list
-/ip firewall address-list remove[find list=Fastly]
+/ip firewall address-list remove [find list="Fastly"]
 add address=23.154.64.0/24 comment="auto_update_2023-03-10 20:11" list=Fastly
 add address=23.185.0.0/24 comment="auto_update_2023-03-10 20:11" list=Fastly
 add address=23.235.32.0/23 comment="auto_update_2023-03-10 20:11" list=Fastly
