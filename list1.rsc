@@ -1,5 +1,5 @@
 /ip firewall address-list
-/ip firewall address-list remove[find list=FASTLY]
+/ip firewall address-list remove[find list=Fastly]
 add address=23.154.64.0/24 comment="auto_update_2023-03-10 20:11" list=Fastly
 add address=23.185.0.0/24 comment="auto_update_2023-03-10 20:11" list=Fastly
 add address=23.235.32.0/23 comment="auto_update_2023-03-10 20:11" list=Fastly
@@ -253,7 +253,7 @@ add address=198.7.22.0/24 comment="auto_update_2023-03-10 20:11" list=EDGECAST
 add address=198.7.27.0/24 comment="auto_update_2023-03-10 20:11" list=EDGECAST
 add address=198.7.29.0/24 comment="auto_update_2023-03-10 20:11" list=EDGECAST
 add address=213.175.80.0/24 comment="auto_update_2023-03-10 20:11" list=EDGECAST
-/ip firewall address-list remove[find list=AMAZON-02]
+/ip firewall address-list remove[find list=Amazon2]
 add address=2.57.12.0/24 comment="auto_update_2023-03-10 20:11" list=Amazon2
 add address=2.255.190.0/23 comment="auto_update_2023-03-10 20:11" list=Amazon2
 add address=3.0.0.0/15 comment="auto_update_2023-03-10 20:11" list=Amazon2
