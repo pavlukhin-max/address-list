@@ -6,6 +6,7 @@
 # Project: https://github.com/
 #
  
+/tool fetch url="https://raw.githubusercontent.com/pavlukhin-max/address-list/main/list.rsc" mode=https
 {
  
 :local targetfile "/test.rsc"   
