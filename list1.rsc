@@ -79,7 +79,7 @@ add address=199.27.76.0/23 comment="auto_update_2023-03-10 20:11" list=Fastly
 add address=199.27.79.0/24 comment="auto_update_2023-03-10 20:11" list=Fastly
 add address=199.36.158.0/24 comment="auto_update_2023-03-10 20:11" list=Fastly
 add address=199.232.0.0/16 comment="auto_update_2023-03-10 20:11" list=Fastly
-/ip firewall address-list remove [find list=EDGECAST]
+/ip firewall address-list remove [find list="EDGECAST"]
 add address=5.104.64.0/24 comment="auto_update_2023-03-10 20:11" list=EDGECAST
 add address=5.104.66.0/23 comment="auto_update_2023-03-10 20:11" list=EDGECAST
 add address=5.104.68.0/24 comment="auto_update_2023-03-10 20:11" list=EDGECAST
