@@ -5,11 +5,11 @@
 # License: MIT
 # Project: https://github.com/
 #
- 
-/tool fetch url="https://raw.githubusercontent.com/pavlukhin-max/address-list/main/list.rsc" mode=https
+/file/remove [find name=list1.rsc] 
+/tool fetch url="https://raw.githubusercontent.com/pavlukhin-max/address-list/main/list1.rsc" mode=https
 {
  
-:local targetfile "/test.rsc"   
+:local targetfile "/test1.rsc"   
  
 # Wait for interfaces to initialize
 #:delay 15s
